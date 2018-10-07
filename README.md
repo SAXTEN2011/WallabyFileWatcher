@@ -12,6 +12,14 @@ the ip address is hardcoded, edit the first line of wallabyWatched.js with the i
 One-line server installation:
 Again in highest level of directory you want to sync:
 
+Linux
+
 ```bash
 wget https://raw.githubusercontent.com/SAXTEN2011/WallabyFileWatcher/master/app.js && wget https://raw.githubusercontent.com/SAXTEN2011/WallabyFileWatcher/master/package.json && npm install
+```
+
+Windows/OSX
+
+```bash
+curl -o https://raw.githubusercontent.com/SAXTEN2011/WallabyFileWatcher/master/app.js && curl -o https://raw.githubusercontent.com/SAXTEN2011/WallabyFileWatcher/master/package.json && npm install
 ```
