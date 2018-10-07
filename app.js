@@ -10,10 +10,9 @@ app.get('/', function (req, res) {
 
 io.on('connection', function (socket) {
     console.log('a user connected');
-
     // One-liner for current directory, ignores .dotfiles
     chokidar.watch('.', {
-        ignored: [/(^|[\/\\])\../, "./node_modules"]
+        ignored: [/(^|[\/\\])\../, "./node_modules", "app.js", "package-lock.json", "package.json"] //ignore dotfiles (regex magic), and the files of the fileWatcher, so only YOUR files are synced
     }).on('all', (event, path) => {
         console.log(event, path);
         if (event === "change" || event === "add") {
