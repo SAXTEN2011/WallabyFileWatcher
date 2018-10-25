@@ -23,3 +23,11 @@ Windows/OSX
 ```bash
 curl -o https://raw.githubusercontent.com/SAXTEN2011/WallabyFileWatcher/master/app.js && curl -o https://raw.githubusercontent.com/SAXTEN2011/WallabyFileWatcher/master/package.json && npm install
 ```
+
+
+
+Alternatively,
+```bash
+git clone https://github.com/SAXTEN2011/WallabyFileWatcher.git
+```
+Will clone the whole repo with all the files you need, so you can clone the repo once and scp over necessary files to a wallaby
