@@ -30,6 +30,7 @@ readline.question(`IP: `, (ip) => {
                             console.log("To Run:")
                             console.log(`$ ssh ${hostname}@${ip}`)
                             console.log(`$ mv ./wallabyWatched.js ./YOUR_PROJECT_DIRECTORY`)
+                            console.log(`$ mv ./package.json ./YOUR_PROJECT_DIRECTORY`)
                             console.log(`$ cd ./YOUR_PROJECT_DIRECTORY`)
                             console.log(`$ npm install`)
                             console.log(`$ node wallabyWatched.js`)
