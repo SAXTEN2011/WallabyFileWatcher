@@ -42,7 +42,7 @@ If your system supports cURL, use the following commands to install, executing t
 ```bash
 $ curl -O https://raw.githubusercontent.com/SAXTEN2011/WallabyFileWatcher/master/serverInstallcurl.sh
 
-$ chmod +x ./serverInstallcurl && ./serverInstallcurl
+$ chmod +x ./serverInstallcurl.sh && ./serverInstallcurl.sh
 ```
 
 If your system supports wget, use the following commands to intall, executing them in your project directory
@@ -50,7 +50,7 @@ If your system supports wget, use the following commands to intall, executing th
 ```bash
 $ wget https://raw.githubusercontent.com/SAXTEN2011/WallabyFileWatcher/master/serverInstallwget.sh
 
-$ chmod +x ./serverInstallwget && ./serverInstallwget
+$ chmod +x ./serverInstallwget.sh && ./serverInstallwget.sh
 ```
 
 Executing either of these sets of commands will install all necessary files to your project directory, and after some prompts, install all necessary files to your wallaby, wherever you wish your project directory to be delivered to.
